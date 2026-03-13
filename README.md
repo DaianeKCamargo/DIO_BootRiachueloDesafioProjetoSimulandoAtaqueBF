@@ -10,3 +10,6 @@ Implementar, documentar e compartilhar um projeto prático utilizando Kali Linux
 --- 
 
 ## Documentação do Teste
+
+### Configuração do Ambiente
+Foi criado um cenário fictício utilizando uma VM Metasploitable 2 como o alvo da invasão, e instalado uma VM Kali Linux, ambas suas configurações foram utilizadas a rede 
