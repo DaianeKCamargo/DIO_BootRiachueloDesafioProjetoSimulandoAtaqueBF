@@ -12,4 +12,11 @@ Implementar, documentar e compartilhar um projeto prático utilizando Kali Linux
 ## Documentação do Teste
 
 ### Configuração do Ambiente
-Foi criado um cenário fictício utilizando uma VM Metasploitable 2 como o alvo da invasão, e instalado uma VM Kali Linux, ambas suas configurações foram utilizadas a rede 
+Foi criado um cenário fictício utilizando uma VM Metasploitable 2 como o alvo da invasão, e instalado uma VM Kali Linux ferramenta que será utilizado para fazer a invasão, ambas suas configurações foram utilizadas a rede "VirtualBox Host-Only Ethernet Adapter", a qual permitirá que a rede esteja na mesma faixa. Ambas utilizações, por meio de segurança, todo o teste será feito por uma VM onde foi criado todo um cenário para estar sendo feito os testes, não comprometendo um computador real.
+
+### Ataques
+Situação: Tentativa de Ataque de Força Bruta em FTP
+Ação: 
+- Confirmei se está tudo certo com a conexão do meu alvo, enviando 4 pct de transmissão, sendo assim obtive o retorno dos 4, ou seja, minha conexão foi efetuada. [img01]
+- Pra efetuar o ataque é necessário uma wordlist, a qual utilizarei a mesma que foi criada na aula, nome dos arquivos: usuários - user.txt e senhas - pass.txt
+- 
