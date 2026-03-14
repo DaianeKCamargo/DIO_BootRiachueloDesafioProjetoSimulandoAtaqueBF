@@ -15,7 +15,7 @@ Implementar, documentar e compartilhar um projeto prático utilizando Kali Linux
 Foi criado um cenário fictício utilizando uma VM Metasploitable 2 como o alvo da invasão, e instalado uma VM Kali Linux ferramenta que será utilizado para fazer a invasão, ambas suas configurações foram utilizadas a rede "VirtualBox Host-Only Ethernet Adapter", a qual permitirá que a rede esteja na mesma faixa. Ambas utilizações, por meio de segurança, todo o teste será feito por uma VM onde foi criado todo um cenário para estar sendo feito os testes, não comprometendo um computador real.
 
 ### Ataques
-**Situação:** Tentativa de Ataque de Força Bruta em FTP
+**Situação:** Tentativa de Ataque de Força Bruta em FTP <br>
 **Ação:** 
 - Confirmei se está tudo certo com a conexão do meu alvo, enviando 4 pct de transmissão, sendo assim obtive o retorno dos 4, ou seja, minha conexão foi efetuada. [img01]
 - Pra efetuar o ataque é necessário uma wordlist, a qual utilizarei a mesma que foi criada na aula, nome dos arquivos: usuários - user.txt e senhas - pass.txt
@@ -24,7 +24,7 @@ Foi criado um cenário fictício utilizando uma VM Metasploitable 2 como o alvo 
 - Tentiva de descobrir o usuário e senha por meio da wordlist utilizando a ferramenta medusa e o serviço FTP. Aqui ele pega os usuarios e senha do arquivo fornececido e faz uma analise combinatória de tenativas e erros, quando acha ele aponta 'account found'  [img04]
 - Após achar o usuario e senha de login, se tem o acesso da maquina [img05]
 
-**Situação:** Tentiva de descobrir o acesso de contas dentro do alvo, utilizando a o ataque Password Spraying e o serviço SMB.
+**Situação:** Tentiva de descobrir o acesso de contas dentro do alvo, utilizando a o ataque Password Spraying e o serviço SMB. <br>
 **Ação:** 
 - Após fazer todo o processo de reconhecer as portas, identificar usuario e senha do servidor alvo, foi feito uma enumeração dos usuário que o alvo possui. [img06]
 - Criar uma wordlist dos usuários encontrados e oujtra wordlist con senhas possiveis. Utilizei a lista que foi criada em aula. nome dos arquivos: usuários - smb_users.txt e senhas: senhas_spray.txt, ele irá fazer a analise combinatória de tentativa e erros, após um usuário e senha forem encontrados ele aparecerá ACCOUNT FOUND e ainda mostra o acesso admin da conta. [img07]
