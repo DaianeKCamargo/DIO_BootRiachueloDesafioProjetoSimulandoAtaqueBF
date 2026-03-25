@@ -36,7 +36,7 @@ Foi criado um cenário fictício utilizando uma VM Metasploitable 2 como o alvo 
 - Utiliza uma wordlist também neste caso, como é apenas uma simulação foi se utilizado o mesmo arquivo Situação 1.
 - PROBLEMA: Na aula ela apresenta o ataque com o medusa, mas nos meus teste não obtive sucesso SOLUÇÃO achada, utilizei o ataque com o hydra a qual sim obtive o retorno esperado. [img11]
 
-**Como evitar um ataque de Força Bruta**
+**Como evitar um ataque de Força Bruta** <br>
 Para uma evitar de ser alvo de uma ataque de força bruta, alguns procedimentos de segurança devem ser tomados:
 - Utilizar senha com no mínimo 10 caracteres contendo letras (maíscula e minúscula), números e caracteres especiais.
 - Não utilizar a mesma senha em outras contas, manter cada uma com uma senha diferente.
